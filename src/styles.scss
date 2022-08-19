@@ -16,3 +16,30 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%; 
+    position:relative;
+    height:0;
+}
+
+.video-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    filter: invert(100%);
+}
+
+@media screen and (min-width: 900px) {
+    .carousel-item {
+        height: 450px;
+    }
+}

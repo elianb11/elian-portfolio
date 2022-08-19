@@ -1,8 +1,8 @@
 {
-  "name": "simplefolio",
+  "name": "elian-portfolio",
   "version": "1.0.1",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "description": "",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
@@ -10,15 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "git+https://github.com/elianb11/elian-portfolio"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
-  },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
+  "author": "Elian Belmonte",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.0.1",
